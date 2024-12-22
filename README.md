@@ -1,9 +1,10 @@
 # Scream
 > AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-> - A wise screamlang programmer.
+> \- A wise screamlang programmer.
 
 Alright, so the premise is Brainfuck, but existential crisis. The implementation
 would go like this:
+
 * Write brainfuck interpreter
 * Transalate brainuck commands (like ">") into existential 
   crisis commands (like "A"), so: `>>>>>` becomes `AAAAA`.
@@ -12,6 +13,7 @@ would go like this:
   placed in [scripts/macro.vim](/scripts/macro.vim), and would
   consist of find and replace procedures.
 * Profit!
+
 So yeah, that's what I'm going to do.
 
 ## Install
