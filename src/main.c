@@ -8,7 +8,7 @@ int main(int argc, char **argv) {
         return 1;
     }
     FILE *file_ptr;
-    char buf[256];
+    char buf[16384];
 
     file_ptr = fopen(argv[1], "r");
 
@@ -16,7 +16,7 @@ int main(int argc, char **argv) {
         printf("File can't be opened \n");
     }
 
-    while (fgets(buf, 256, file_ptr) != NULL) {}
+    while (fgets(buf, 16384, file_ptr) != NULL) {}
 	
 	char *input = "";
 	expr(buf, input);
