@@ -14,7 +14,10 @@ would go like this:
   consist of find and replace procedures.
 * Profit!
 
-So yeah, that's what I'm going to do.
+So yeah, that's what I'm going to do. Screamlang is a programming language for wheen you
+need to take out your frustration. For example, `AAeueAAeueueAAAOOoooeuueuAEEEueueeeEeu`
+is a valid instruction in scream. And I don't know about you, but that's *exactly* how
+I sound like when I'm frustrated.
 
 ## Install
 ```sh
