@@ -1,6 +1,7 @@
+#include <stdio.h>
 #include "scream.h"
 
-#include <stdio.h>
+#define BUF_LEN 65536
 
 int main(int argc, char **argv) {
     if (argc <= 1) {
@@ -8,7 +9,7 @@ int main(int argc, char **argv) {
         return 1;
     }
     FILE *file_ptr;
-    char buf[16384];
+    char buf[BUF_LEN];
 
     file_ptr = fopen(argv[1], "r");
 
@@ -16,7 +17,7 @@ int main(int argc, char **argv) {
         printf("File can't be opened \n");
     }
 
-    while (fgets(buf, 16384, file_ptr) != NULL) {}
+    while (fgets(buf, BUF_LEN, file_ptr) != NULL) {}
 	
 	char *input = "";
 	expr(buf, input);
