@@ -5,13 +5,13 @@ CC     = gcc
 CFLAGS = -I./include
 C_OBJS = $(wildcard */*.c)
 
-all: $(BIN)
+all: $(INSTALL_BIN)
 
-$(BIN): $(OBJS)
-	$(CC) $(CFLAGS) -o $(BIN) $(OBJS)
+$(INSTALL_BIN): $(OBJS)
+	$(CC) $(CFLAGS) -o $(INSTALL_BIN) $(C_OBJS)
 
-install: $(BIN)
-	mv $(BIN) $(INSTALL_DIR)/$(BIN)
+install: $(INSTALL_BIN)
+	mv $(INSTALL_BIN) $(INSTALL_DIR)/$(INSTALL_BIN)
 
 clean:
 	rm $(C_OBJS) && \

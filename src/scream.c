@@ -1,5 +1,4 @@
-#include "scream.h"
-
+#include <scream.h>
 #include <stdio.h>
 
 void expr(char *command_pointer, char *input) {
