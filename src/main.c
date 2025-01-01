@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "scream.h"
+#include <scream.h>
 
 #define BUF_LEN 65536
 
