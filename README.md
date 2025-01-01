@@ -6,7 +6,7 @@ Alright, so the premise is Brainfuck, but existential crisis. The implementation
 would go like this:
 
 * Write brainfuck interpreter
-* Transalate brainuck commands (like ">") into existential 
+* Transalate brainfuck commands (like ">") into existential 
   crisis commands (like "A"), so: `>>>>>` becomes `AAAAA`.
 * Steal brainfuck examples from the internet and use a custom
   vim script to automatically transalate, it would probably be
