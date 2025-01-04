@@ -29,8 +29,8 @@ and one newer one.
 git clone https://github.com/ElisStaaf/scream
 cd scream
 
-cd scream         # "cd scream25" for
-                  # the '25 revision.
+cd scream         # Blog post implementation
+cd scream25       # The great '25 revision
 
 make              # To build
 sudo make install # To install
