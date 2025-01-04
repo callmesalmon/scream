@@ -10,7 +10,7 @@ would go like this:
   crisis commands (like "A"), so: `>>>>>` becomes `AAAAA`.
 * Steal brainfuck examples from the internet and use a custom
   vim script to automatically transalate, it would probably be
-  placed in [scripts/macro.vim](/scripts/macro.vim), and would
+  placed in [scripts/macro.vim](/scream/scripts/macro.vim), and would
   consist of find and replace procedures.
 * Profit!
 
