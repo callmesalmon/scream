@@ -22,9 +22,15 @@ I sound like when I'm frustrated. If you want more information, check out my
 about this language.
 
 ## Install
+There are two different implementations of brainfuck.
+One old one, (you'll see that one if you read my blog post)
+and one newer one.
 ```sh
 git clone https://github.com/ElisStaaf/scream
 cd scream
+
+cd scream         # "cd scream25" for
+                  # the '25 revision.
 
 make              # To build
 sudo make install # To install
