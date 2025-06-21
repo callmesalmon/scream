@@ -18,7 +18,7 @@ So yeah, that's what I'm going to do. Screamlang is a programming language for w
 need to take out your frustration. For example, `AAeueAAeueueAAAOOoooeuueuAEEEueueeeEeu`
 is a valid instruction in scream. And I don't know about you, but that's *exactly* how
 I sound like when I'm frustrated. If you want more information, check out my
-[blog post](https://elisstaaf.github.io/projects/2025/01/04/worst-language-sequel.html)
+[blog post](https://callmesalmon.github.io/projects/2025/01/04/worst-language-sequel.html)
 about this language.
 
 ## Install
@@ -26,7 +26,7 @@ There are two different implementations of brainfuck.
 One old one, (you'll see that one if you read my blog post)
 and one newer one.
 ```sh
-git clone https://github.com/ElisStaaf/scream
+git clone https://github.com/callmesalmon/scream
 cd scream
 
 cd scream         # Blog post implementation
