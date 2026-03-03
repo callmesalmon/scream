@@ -29,12 +29,13 @@ and one newer one.
 git clone https://github.com/callmesalmon/scream
 cd scream
 
-cd scream         # Blog post implementation
-cd scream25       # The great '25 revision
+cd blogscream       # Blog post implementation
+cd scream25         # The great '25 revision
 
-make              # To build
-sudo make install # To install
+make                # To build
+sudo make install   # To install
 ```
+The ``scream`` binary will be placed in the repo's root directory.
 
 ## Examples
 This is a simple hello world program:

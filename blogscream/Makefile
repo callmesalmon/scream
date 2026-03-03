@@ -1,4 +1,4 @@
-INSTALL_BIN = scream
+INSTALL_BIN = ../scream
 INSTALL_DIR = /usr/local/bin
 
 CC     = gcc
