@@ -6,7 +6,7 @@ Alright, so the premise is Brainfuck, but existential crisis. The implementation
 would go like this:
 
 * Write brainfuck interpreter
-* Transalate brainfuck commands (like ">") into existential 
+* Translate brainfuck commands (like ">") into existential 
   crisis commands (like "A"), so: `>>>>>` becomes `AAAAA`.
 * Steal brainfuck examples from the internet and use a custom
   vim script to automatically transalate, it would probably be
@@ -22,7 +22,7 @@ I sound like when I'm frustrated. If you want more information, check out my
 about this language.
 
 ## Install
-There are two different implementations of brainfuck.
+There are two different implementations of scream.
 One old one, (you'll see that one if you read my blog post)
 and one newer one.
 ```sh
